@@ -1,0 +1,48 @@
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 0;
+    margin-top: -4px;
+    vertical-align: middle;
+    fill: $cyan;
+    transition: fill .3s linear;
+}
+
+
+
+.taxcom.logo {
+    width: 87px;
+    height: 38px;
+}
+
+use.light {
+    fill: white;
+}
+
+svg path {
+    fill: inherit;
+}
+
+.bg-primary {
+    transition: background-color .3s linear;
+}
+
+.dossier .icon {
+    fill: $dossier-primary;
+}
+.dossier .bg-primary {
+    background-color: $dossier-primary !important;
+}
+.otchetnost .icon {
+    fill: $otchetnost-primary;
+}
+.otchetnost .bg-primary {
+    background-color: $otchetnost-primary !important;
+}
+.sprinter .icon {
+    fill: $sprinter-primary;
+}
+.sprinter .bg-primary {
+    background-color: $sprinter-primary !important;
+}

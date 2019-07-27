@@ -1,0 +1,33 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Color system
+
+$blue: #228ACD;
+$green: #79BE00;
+$cyan: #5CAADD;
+$hover: #F1F8FF;
+
+// Products colors
+
+$dossier-primary:#3F51B5;
+$otchetnost-primary:#F7941D;
+$sprinter-primary: rgb(105, 179, 24);
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+
+$border-radius:               .125rem !default;
+$border-radius-lg:            .125rem !default;
+$border-radius-sm:            .125rem !default;
+
+// Forms
+
+$custom-select-indicator: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M20 8H4V6H20V8Z' fill='%2355AADD'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M20 13H4V11H20V13Z' fill='%2355AADD'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M20 18H4V16H20V18Z' fill='%2355AADD'/%3E%3C/svg%3E%0A");
+// Modal
+
+$modal-header-border-color: white;
+$modal-footer-border-color:  $modal-header-border-color;

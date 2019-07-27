@@ -1,0 +1,29 @@
+.close {
+    opacity: 1;
+
+    &:not(:disabled):not(.disabled) {
+      @include hover-focus {
+        opacity: 1;
+      }
+    }
+  }
+
+  .modal-body {
+    padding: 0 $modal-inner-padding;
+  }
+  .modal-body pre {
+    margin: 0;
+  }
+
+  // Button
+
+  .btn-link {
+  
+    @include hover {
+      color: $link-hover-color;
+      background-color: $hover;
+      text-decoration: $link-decoration;
+    }
+
+  }
+  
