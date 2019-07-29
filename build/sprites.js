@@ -20,7 +20,7 @@ dirs.forEach(function(dir) {
       console.log(file);
       var svgfile = fs.readFileSync(file, "utf8");
       var size = svgfile.match(/viewBox="([^"]*)"/g);
-      svgfile = svgfile.replace(/ fill=".*?"/g, '');
+      // svgfile = svgfile.replace(/ fill=".*?"/g, '');
       svgfile = svgfile.replace(/<svg[^>]*>/g, '');
       svgfile = svgfile.replace(/<\/svg>/g, '');
       output += '<symbol id="' + path.basename(file, '.svg') + '" ' + size + '>' + svgfile + '</symbol>';

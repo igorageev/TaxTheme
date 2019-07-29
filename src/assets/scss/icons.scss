@@ -20,7 +20,7 @@ use.light {
     fill: white;
 }
 
-svg path {
+svg path, svg circle, svg rect {
     fill: inherit;
 }
 
